@@ -1,0 +1,144 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+/* 
+rgb(70, 142, 236)
+*/
+body{
+    background: linear-gradient(to left, rgb(70, 142, 236), rgb(131, 174, 230));
+    background-image: url('quiz.png');
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+    font: normal 1.2em arial, helvet;
+}
+
+h1 {
+    font-size: 2.3em;
+    color: white;
+    text-shadow: 8px 8px 15px rgba(0, 0, 0, 0.466);
+    text-align: center;
+}
+
+section {
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: 50px auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.507);
+   
+}
+
+legend {
+    
+    margin-bottom: 10px;
+    
+}
+/* label:before {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1px solid black;
+    transform: translate();
+    border-radius: 50%;
+    margin-right: 10px;
+    
+    position: absolute;
+    left: 0;
+    top: 1px;
+} */ 
+
+div{
+    padding: 15px;
+}
+
+input:hover, label:hover {
+    color: rgb(188, 61, 238);
+    transform: translate(-1px, -1px);
+    transition: transform 0.5s, border 0.5s;
+}
+.btn-start {
+    position: relative;
+    left: 210px;
+    border: 1.5px solid black;
+    font-size: 1em;
+    text-decoration: none;
+    /* width: 300px;
+    height: 100px; */
+    border-radius: 10px;
+    background-color: rgb(44, 90, 150);
+    color: white;;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 15px;
+
+    
+}
+.btn-start-novo {
+    position: relative;
+    left: 145px;
+    border: 1.5px solid black;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 10px;
+    background-color: rgb(44, 90, 150);
+    color: white;;
+    font-weight: bold;
+    margin: 20px auto;
+    padding: 10px 15px;
+
+    
+}
+.btn {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: rgb(44, 90, 150);
+    color: white;;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+    margin: 20px 5px;
+    
+} 
+.btn-start:hover, .btn:hover {
+    color: white;
+    background-color: rgb(188, 61, 238);
+    transform: translate(-1px, -1px);
+    transition: transform 0.5s, border 0.5s;
+}
+.btn-again {
+    position: relative;
+    left: 100px;
+    top: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.8em;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    background-color: rgb(44, 90, 150);
+    color: white;;
+    padding: 10px;
+    width: 80px;
+    height: 40px;
+    margin: 20px 5px;
+    
+} 
+.btn-again:hover {
+    color: white;
+    background-color: rgb(188, 61, 238);
+    transform: translate(-1px, -1px);
+    transition: transform 0.5s, border 0.5s;
+}
